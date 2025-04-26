@@ -13,6 +13,20 @@ public class vehicle {
 
     private Long id;
 
-    private String nome;
+    private String proprietario;
+
+    private String cpf;
+
+    private String placa;
+
+    private String chassi;
+
+    private String marca;
+
+    private String modelo;
+
+    private boolean licensed;
+
+    
 
 }
