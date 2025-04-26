@@ -34,8 +34,8 @@ public class vehicle {
         return licenciado;
     }
 
-    public void setLicenciado(boolean licensed) {
-        this.licenciado = licensed;
+    public void setLicenciado(boolean licenciado) {
+        this.licenciado = licenciado;
     }
 
 
