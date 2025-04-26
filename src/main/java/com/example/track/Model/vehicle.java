@@ -1,7 +1,6 @@
 package com.example.track.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,10 +10,13 @@ import lombok.Setter;
 @Setter
 public class vehicle {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String proprietario;
 
+    @Column(nullable = false, unique = true)
     private String cpf;
 
     private String placa;
@@ -27,6 +29,6 @@ public class vehicle {
 
     private boolean licensed;
 
-    
+
 
 }
