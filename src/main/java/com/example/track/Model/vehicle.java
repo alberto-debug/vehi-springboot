@@ -30,6 +30,14 @@ public class vehicle {
 
     private boolean licensed;
 
+    public boolean getLicensed() {
+        return licensed;
+    }
+
+    public void setLicensed(boolean licensed) {
+        this.licensed = licensed;
+    }
+
 
 
 }
