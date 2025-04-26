@@ -19,6 +19,7 @@ public class vehicle {
     @Column(nullable = false, unique = true)
     private String cpf;
 
+    @Column(nullable = false, unique = true)
     private String placa;
 
     private String chassi;
