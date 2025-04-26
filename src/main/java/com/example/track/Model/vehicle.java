@@ -28,14 +28,14 @@ public class vehicle {
 
     private String modelo;
 
-    private boolean licensed;
+    private boolean licenciado;
 
-    public boolean getLicensed() {
-        return licensed;
+    public boolean getLicenciado() {
+        return licenciado;
     }
 
-    public void setLicensed(boolean licensed) {
-        this.licensed = licensed;
+    public void setLicenciado(boolean licensed) {
+        this.licenciado = licensed;
     }
 
 
